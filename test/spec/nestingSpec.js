@@ -54,7 +54,7 @@ describe('Update Employee Info', function() {
       })
       it('No longer at fault for accidents', function() {
           recordCleaner();
-          console.log(myCar)
+          //console.log(myCar)
           var flag = true;
           myCar.accidents.map(function(accident) {
               if (accident.atFaultForAccident) {
